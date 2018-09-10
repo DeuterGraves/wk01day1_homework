@@ -1,2 +1,42 @@
 i am monkey typing
 iugaerhoirgj'ivamkaermr aemk
+
+
+*** This is how the homework was done ***
+notes for when I forget all this:
+
+
+Local
+
+Create a folder
+ - In terminal mkdir <dir name>
+Initialize a git repository in the folder
+ - git init
+Create a couple of text files .txt
+ - touch <filename>.txt <filename>.txt
+Stage the files
+ - git add . (or exact file name)
+Commit the files to the repository
+ - git commit -m "commit message" (there's a cool failsafe with atom and possibly others - fill in the message save and close to resume work in terminal)
+Change the files
+ - atom . or exact file name - to launch atom and edit
+Commit the changes
+ - git add (ad)
+ - git commit (as above)
+
+Remote - Github
+
+Create new repository
+ - log into Github > + new repository
+
+
+Local
+
+Add the Github remote
+ - there's commands you can copy and paste from github to add a new orgin - it will look like:
+ git remote add origin https://github.com/DeuterGraves/git_demo.git
+git push -u origin master
+** ask - what if I want to make another computer an origin - how do I find or replicate that code?
+Push to the remote repository
+ - push enter at that point.
+ - git commit
