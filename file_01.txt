@@ -38,7 +38,7 @@ Add the Github remote
 git push -u origin master
 ** ask - what if I want to make another computer an origin - how do I find or replicate that code?
 Push to the remote repository
- - push enter at that point.
+ - git push (I didn't specify what to push - assume this pushes the commit as set up? ** ask)
  - git commit
 
  change
